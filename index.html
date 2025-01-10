@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- --------------------------- nav section --------------------------- -->
+      <nav class="nav-wrap">
+        <div class="nav-container max-width">
+          <img src="assets/svg/Logo.svg" alt="" />
+          <div>
+            <ul class="nav">
+              <a href="#hero"><li class="nav-items">Home</li></a>
+              <a href="#about"><li class="nav-items">About</li></a>
+              <a href="#destination"><li class="nav-items">Destination</li></a>
+              <a href="#tour"><li class="nav-items">Tour</li></a>
+              <a href="#blog"><li class="nav-items">Blog</li></a>
+            </ul>
+          </div>
+          <div>
+            <ul class="nav">
+              <li><button class="nav-button ghost">Login</button></li>
+              <li><button class="nav-button">Sign Up</button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- --------------------------- hero section --------------------------- -->
+      <section id="hero">
+        <div class="hero-wrap">
+          <div class="hero-left">
+            <h1>
+              Get started your <br />
+              exciting <span> journey</span> <br />
+              with us.
+            </h1>
+            <p>
+              A Team of experienced tourism professionals will <br />
+              provide you with the best advice and tips for your <br />
+              desire place.
+            </p>
+            <button>Discover Now</button>
+          </div>
+          <div class="hero-img">
+            <img src="assets/img/hero-mg.png" alt="" />
+          </div>
+        </div>
+        <div class="filter-and-find-wrap">
+          <div class="filter-and-find">
+            <div class="dropdowns">
+              <select class="select-dropdown" id="dropdown" name="location">
+                <option class="dropdown-items" value="location" selected>
+                  Location
+                </option>
+                <option class="dropdown-items" value="option1">Option 1</option>
+                <option class="dropdown-items" value="option2">Option 2</option>
+                <option class="dropdown-items" value="option3">Option 3</option>
+                <option class="dropdown-items" value="option4">Option 4</option>
+              </select>
+              <label class="dropdown-label" for="dropdown"
+                >Where are you going</label
+              >
+            </div>
+            <div class="dropdowns">
+              <select class="select-dropdown" id="dropdown" name="date">
+                <option class="dropdown-items" value="location" selected>
+                  Date
+                </option>
+                <option class="dropdown-items" value="option1">Option 1</option>
+                <option class="dropdown-items" value="option2">Option 2</option>
+                <option class="dropdown-items" value="option3">Option 3</option>
+                <option class="dropdown-items" value="option4">Option 4</option>
+              </select>
+              <label class="dropdown-label" for="dropdown"
+                >When you will go</label
+              >
+            </div>
+            <div class="dropdowns">
+              <select class="select-dropdown" id="dropdown" name="Guest">
+                <option class="dropdown-items" value="location" selected>
+                  Guest
+                </option>
+                <option class="dropdown-items" value="option1">Option 1</option>
+                <option class="dropdown-items" value="option2">Option 2</option>
+                <option class="dropdown-items" value="option3">Option 3</option>
+                <option class="dropdown-items" value="option4">Option 4</option>
+              </select>
+              <label class="dropdown-label" for="dropdown"
+                >Number of guest</label
+              >
+            </div>
+            <button>Explore Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- --------------------------- need to do section --------------------------- -->
+    <section>
+      <div class="to-do-wrap section-style">
+        <div class="heading-container max-width">
+          <img
+            class="to-do-floating-element"
+            src="assets/svg/element-todo.svg"
+            alt="travel-illustration"
+          />
+          <h3 class="section-heading">Things you need <span>to do</span></h3>
+          <p class="sub-heading">
+            We ensure that you’ll embark on a perfectly planned, <br />
+            safe vacation at a price you can afford.
+          </p>
+          <div>
+            <div class="card-container">
+              <div class="to-do-card signup">
+                <img
+                  class="icon-to-do"
+                  src="assets/svg/signup.svg"
+                  alt="signup icon"
+                />
+                <h5>Sign Up</h5>
+                <p class="card-content">
+                  Completes all the work associated with planning and processing
+                </p>
+              </div>
+
+              <div class="to-do-card money">
+                <img
+                  class="icon-to-do"
+                  src="assets/svg/money.svg"
+                  alt="money icon"
+                />
+                <h5>Worth of Money</h5>
+                <p class="card-content">
+                  After successful access then book from exclusive deals &
+                  pricing
+                </p>
+              </div>
+
+              <div class="to-do-card travel">
+                <img
+                  class="icon-to-do"
+                  src="assets/svg/travel.svg"
+                  alt="travel icon"
+                />
+                <h5>Exciting Travel</h5>
+                <p class="card-content">
+                  Start and explore a wide range of exciting travel experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- deals and discounts section --------------------------- -->
+    <section id="destination">
+      <div class="section-style">
+        <div class="heading-container max-width">
+          <h3 class="section-heading">
+            Exclusive <span>deals & discounts</span>
+          </h3>
+          <p class="sub-heading">
+            Discover our fantastic early booking discounts & <br />
+            start planning your journey.
+          </p>
+
+          <div class="deals-wrapper">
+            <div class="card-overall-style">
+              <div class="button-container">
+                <img class="deals-img" src="assets/img/madrid.png" alt="" />
+                <div class="overlay"></div>
+                <div class="deals-button"><a href="#"> Book Now </a></div>
+              </div>
+              <div>
+                <article class="card-info-container small">
+                  <div class="card-info">
+                    <h6 class="card-heading">Madrid</h6>
+                    <p class="trip-ratings">4.5</p>
+                  </div>
+                  <div class="card-info card-info-padding small">
+                    <p class="location">Spain</p>
+                    <div class="before-after-price">
+                      <p class="real-price">$950</p>
+                      <p class="offer-price">$850</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="card-overall-style">
+              <div class="button-container">
+                <img class="deals-img" src="assets/img/firenze.png" alt="" />
+                <div class="overlay"></div>
+                <div class="deals-button"><a href="#"> Book Now </a></div>
+              </div>
+              <div>
+                <article class="card-info-container small">
+                  <div class="card-info">
+                    <h6 class="card-heading">Firenze</h6>
+                    <p class="trip-ratings">4.5</p>
+                  </div>
+                  <div class="card-info card-info-padding small">
+                    <p class="location">Spain</p>
+                    <div class="before-after-price">
+                      <p class="real-price">$950</p>
+                      <p class="offer-price">$850</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="card-overall-style">
+              <div class="button-container">
+                <img class="deals-img" src="assets/img/paris.png" alt="" />
+                <div class="overlay"></div>
+                <div class="deals-button"><a href="#"> Book Now </a></div>
+              </div>
+              <div>
+                <article class="card-info-container small">
+                  <div class="card-info">
+                    <h6 class="card-heading">Paris</h6>
+                    <p class="trip-ratings">4.5</p>
+                  </div>
+                  <div class="card-info card-info-padding small">
+                    <p class="location">Spain</p>
+                    <div class="before-after-price">
+                      <p class="real-price">$950</p>
+                      <p class="offer-price">$850</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="card-overall-style">
+              <div class="button-container">
+                <img
+                  class="deals-img"
+                  src="assets/img/london-small.png"
+                  alt=""
+                />
+                <div class="overlay"></div>
+                <div class="deals-button"><a href="#"> Book Now </a></div>
+              </div>
+              <div>
+                <article class="card-info-container small">
+                  <div class="card-info">
+                    <h6 class="card-heading">London</h6>
+                    <p class="trip-ratings">4.5</p>
+                  </div>
+                  <div class="card-info card-info-padding small">
+                    <p class="location">Spain</p>
+                    <div class="before-after-price">
+                      <p class="real-price">$950</p>
+                      <p class="offer-price">$850</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- vacation section --------------------------- -->
+    <section id="tour">
+      <div class="section-style">
+        <div class="vacation-main">
+          <img
+            class="vacation-floating"
+            src="assets/svg/element-tree-vacation.svg"
+            alt="tree"
+          />
+          <div class="heading-container max-width">
+            <h3 class="section-heading">Best <span>vacation plan</span></h3>
+            <p class="sub-heading">
+              Plan your perfect vacation with our travel agency. Choose <br />
+              among hundreds of all-inclusive offers!
+            </p>
+          </div>
+
+          <div class="arrows">
+            <div class="arrow-left">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="arrow-right">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="card-flex">
+            <div class="card-overall-style">
+              <img src="assets/img/rome.png" alt="" />
+              <article class="card-info-container">
+                <div class="card-info">
+                  <h6 class="card-heading">Rome, Italty</h6>
+                  <p class="price">$5,42k</p>
+                </div>
+                <div class="card-info card-info-padding">
+                  <p class="trip-duration">10 Days Trip</p>
+                  <p class="trip-ratings">4.5</p>
+                </div>
+              </article>
+            </div>
+            <div class="card-overall-style">
+              <img src="assets/img/london.png" alt="" />
+              <article class="card-info-container">
+                <div class="card-info">
+                  <h6 class="card-heading">Rome, Italty</h6>
+                  <p class="price">$5,42k</p>
+                </div>
+                <div class="card-info card-info-padding">
+                  <p class="trip-duration">10 Days Trip</p>
+                  <p class="trip-ratings">4.5</p>
+                </div>
+              </article>
+            </div>
+            <div class="card-overall-style">
+              <img src="assets/img/osaka.png" alt="" />
+              <article class="card-info-container">
+                <div class="card-info">
+                  <h6 class="card-heading">Rome, Italty</h6>
+                  <p class="price">$5,42k</p>
+                </div>
+                <div class="card-info card-info-padding">
+                  <p class="trip-duration">10 Days Trip</p>
+                  <p class="trip-ratings">4.5</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- about us section --------------------------- -->
+    <section id="about">
+      <div class="about-style">
+        <div class="about-wrap">
+          <div>
+            <div class="max-width">
+              <h3 class="section-heading about">
+                What people say <br /><span>about us.</span>
+              </h3>
+              <p class="sub-heading about">
+                Plan your perfect vacation with our travel agency. Choose <br />
+                among hundreds of all-inclusive offers!
+              </p>
+            </div>
+
+            <div class="arrows left">
+              <div class="arrow-left">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="arrow-right">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-img">
+            <img src="assets/img/about-us-img.png" alt="" />
+            <img
+              class="about-floating"
+              src="assets/svg/about-floating.svg"
+              alt="tree"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- blogs section --------------------------- -->
+    <section id="blog">
+      <div class="section-style blog">
+        <div>
+          <div class="max-width">
+            <div class="heading-container">
+              <h3 class="section-heading blog">
+                Get update with <span>latest blog</span>
+              </h3>
+            </div>
+
+            <div class="blog-content-wrap">
+              <div>
+                <img src="assets/img/blog-img-1.png" alt="" />
+                <div>
+                  <h5>
+                    The Amazing Difference a <br />
+                    Year of Traveling.
+                  </h5>
+                  <p>July 27, 2021</p>
+                </div>
+              </div>
+
+              <div>
+                <img src="assets/img/blog-img-2.png" alt="" />
+                <div>
+                  <h5>
+                    The Amazing Difference a <br />
+                    Year of Traveling.
+                  </h5>
+                  <p>July 27, 2021</p>
+                </div>
+              </div>
+
+              <div>
+                <img src="assets/img/blog-img-3.png" alt="" />
+                <div>
+                  <h5>
+                    The Amazing Difference a <br />
+                    Year of Traveling.
+                  </h5>
+                  <p>July 27, 2021</p>
+                </div>
+              </div>
+
+              <div>
+                <img src="assets/img/blog-img-4.png" alt="" />
+                <div>
+                  <h5>
+                    The Amazing Difference a <br />
+                    Year of Traveling.
+                  </h5>
+                  <p>July 27, 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-dots">
+            <span class="dots"></span>
+            <span class="dots orange-dot"></span>
+            <span class="dots"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- subscribe section --------------------------- -->
+    <section>
+      <div class="subscribe-relative">
+        <div class="subscribe-absolute">
+          <div class="subscribe-style">
+            <div class="subscribe-wrap max-width">
+              <img src="assets/svg/subscribe.svg" alt="" />
+            </div>
+
+            <div class="email-section">
+              <h4>
+                Subscribe and get exclusive <br />
+                deals & offer
+              </h4>
+              <div class="input-container">
+                <input
+                  v
+                  type="text"
+                  class="email-input"
+                  placeholder="Enter your email"
+                />
+                <button class="subscribe-btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------- footer section --------------------------- -->
+    <footer class="footer-style">
+      <div class="max-width">
+        <section class="footer-wrapper">
+          <div>
+            <img class="logo" src="assets/svg/Logo.svg" alt="" />
+            <p>
+              Book your trip in minute, get full <br />
+              Control for much longer.
+            </p>
+            <div>
+              <img class="icon-social-media" src="assets/svg/fb.svg" alt="fb" />
+              <img class="icon-social-media" src="assets/svg/ig.svg" alt="ig" />
+
+              <img class="icon-social-media" src="assets/svg/x.svg" alt="x" />
+            </div>
+          </div>
+
+          <div class="footer-right">
+            <div>
+              <h4 class="footer-items-heading">Course</h4>
+              <ul class="footer-items-wrapper">
+                <a href=""><li class="footer-items">About</li></a>
+                <a href=""><li class="footer-items">Careers</li></a>
+                <a href=""><li class="footer-items">Logistic</li></a>
+                <a href=""><li class="footer-items">Privacy & Policy</li></a>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="footer-items-heading">Contact</h4>
+              <ul class="footer-items-wrapper">
+                <a href=""><li class="footer-items">Help/FAQ</li></a>
+                <a href=""><li class="footer-items">Press</li></a>
+                <a href=""><li class="footer-items">Affilates</li></a>
+              </ul>
+            </div>
+            <div>
+              <h4 class="footer-items-heading">More</h4>
+              <ul class="footer-items-wrapper">
+                <a href=""><li class="footer-items">Press Centre</li></a>
+                <a href=""><li class="footer-items">Our Blog</li></a>
+                <a href=""><li class="footer-items">Low fare tips</li></a>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="footer-border" />
+
+        <div class="copyrights-section-main">
+          <p class="legal-info">
+            Copyright, Trabook 2022. All rights reserved.
+          </p>
+          <p class="legal-info">Terms & Conditions</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
