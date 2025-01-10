@@ -156,6 +156,52 @@ button {
   box-shadow: none;
 }
 
+/* responsiveness */
+@media (max-width: 1024px) {
+  .nav-wrap {
+    position: relative; /* Make nav non-fixed */
+    padding: 20px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 0px;
+    margin: 0;
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-400);
+    align-items: center;
+  }
+
+  .nav a {
+    padding: 24px 0px;
+    font-size: var(--font-14);
+  }
+
+  .nav-button {
+    padding: 12px 35px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .nav-container {
+      padding: 10px;
+    }
+    .nav {
+      gap: 15px;
+    }
+  }
+}
+
+
 /* --------------------------- hero section --------------------------- */
 
 .hero-wrap {
@@ -315,7 +361,7 @@ button {
   }
 
   .hero-left {
-    padding: 150px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     text-align: center;
   }
 
