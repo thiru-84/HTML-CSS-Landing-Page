@@ -1247,6 +1247,15 @@ button {
   border-radius: 9999px;
 }
 
+.icon-wrap{
+  display: flex;
+  gap: 26px ;
+}
+
+.icon-social-media:hover{
+  background-color: var(--brand-orange);
+}
+
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
