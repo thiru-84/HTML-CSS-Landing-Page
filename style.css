@@ -1294,7 +1294,7 @@ button {
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 10px 15px;
   justify-content: center;
   border-radius: 9999px;
 }
@@ -1306,6 +1306,7 @@ button {
 
 .icon-social-media:hover{
   background-color: var(--brand-orange);
+  color: var(--bg-pure-white);
 }
 
 .footer-wrapper {
